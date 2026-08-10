@@ -1,0 +1,16 @@
+{
+  "version": "gd3-0.1",
+  "routeId": "route-home",
+  "sections": [
+    {"sectionId":"section-header","order":1,"componentIds":["Header"],"purpose":"brand navigation + primary consultation CTA"},
+    {"sectionId":"section-hero","order":2,"componentIds":["Hero","PrimaryCTA","SecondaryCTA"],"purpose":"brand promise, service positioning, brand-emblem visual and primary contact actions"},
+    {"sectionId":"section-proof-strip","order":3,"componentIds":["ProofStrip"],"purpose":"demo proof metrics; placeholder until real data"},
+    {"sectionId":"section-services","order":4,"componentIds":["ServiceCard"],"purpose":"six approved service categories"},
+    {"sectionId":"section-products","order":5,"componentIds":["ProductCard"],"purpose":"authorized digital product/software catalog placeholder"},
+    {"sectionId":"section-why","order":6,"componentIds":["WhyChooseItem"],"purpose":"trust and operating advantages"},
+    {"sectionId":"section-process","order":7,"componentIds":["ProcessStep"],"purpose":"five-step delivery process"},
+    {"sectionId":"section-testimonials","order":8,"componentIds":["TestimonialCard"],"purpose":"demo testimonials placeholder"},
+    {"sectionId":"section-final-cta","order":9,"componentIds":["FinalCTA","PrimaryCTA","SecondaryCTA"],"purpose":"final conversion prompt"},
+    {"sectionId":"section-footer","order":10,"componentIds":["Footer"],"purpose":"brand summary, links, verified contact channels"}
+  ]
+}
