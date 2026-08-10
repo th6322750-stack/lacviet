@@ -1,0 +1,24 @@
+{
+  "protocolVersion":"2.0.0",
+  "status":"DRAFT_INCOMPLETE",
+  "uiRevision":"gd3-in-progress-001",
+  "lockedBy":"CHATGPT",
+  "implementationAllowed":false,
+  "files":[
+    {"path":"design/master/MASTER_SPEC.md","role":"master-spec"},
+    {"path":"design/master/svg/01_Home_WEB_MASTER.svg","role":"web-master"},
+    {"path":"design/master/svg/01_Home_MOBILE_MASTER.svg","role":"mobile-master"},
+    {"path":".webby/visual-contract.json","role":"visual-contract"},
+    {"path":".webby/route-map.json","role":"route-map"},
+    {"path":".webby/section-map.json","role":"section-map"},
+    {"path":".webby/component-map.json","role":"component-map"},
+    {"path":".webby/asset-manifest.json","role":"asset-manifest"},
+    {"path":".webby/placement-map.json","role":"placement-map"},
+    {"path":".webby/typography.json","role":"typography"},
+    {"path":".webby/tokens.json","role":"tokens"},
+    {"path":".webby/responsive.json","role":"responsive"},
+    {"path":".webby/interactions.json","role":"interactions"}
+  ],
+  "unresolved":["bind authoritative logo binary into project production/source asset hierarchy"],
+  "mustNotConsumeAsFinalHandoff":true
+}
