@@ -1,0 +1,31 @@
+{
+  "schemaVersion":"2.0.0",
+  "skillVersion":"2.0.0",
+  "uiRevision":"lacviet-ui-001",
+  "uiCommit":"9950016e51e2fc80ed531a4a45a96f08ed2aded8",
+  "status":"PASS",
+  "validationMode":"CANONICAL_VALIDATOR_LOGIC_MIRROR_PLUS_GITHUB_CONNECTOR_TREE_VERIFICATION",
+  "canonicalRunnerExecutedAgainstLocalCheckout":false,
+  "canonicalRunnerUnavailableReason":"The execution container could not obtain a live GitHub checkout; validation used the exact required-key/cross-reference logic from webbyLucifer scripts/webby-validate.py and verified locked paths against the GitHub connector recursive tree/directory listings.",
+  "checks":{
+    "handoffRequiredKeys":true,
+    "lockRequiredKeys":true,
+    "handoffProducerChatGPT":true,
+    "uiCommitPresent":true,
+    "handoffLockIdMatch":true,
+    "handoffLockRevisionMatch":true,
+    "handoffLockCommitMatch":true,
+    "requiredInputsExist":true,
+    "lockedFilesExist":true,
+    "assetIdsPresentAndUnique":true,
+    "productionAssetPathsExist":true,
+    "componentIdsPresentAndUnique":true,
+    "blockingOpenRequests":false,
+    "blockingAssets":false
+  },
+  "errors":[],
+  "warnings":[
+    "Metrics, testimonials, product catalog/inventory and contact destinations are explicit placeholders and must be replaced before production release.",
+    "The original PNG source binary is preserved by authoritative SHA-256 manifest; production uses a direct source-derived WebP because the connector workflow did not copy the original conversation binary into the repository."
+  ]
+}
