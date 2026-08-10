@@ -1,0 +1,9 @@
+{
+  "version":"gd3-0.1",
+  "authority":"CHATGPT",
+  "approvedDirection":"PA1_BLACK_GOLD_LUXURY_CORPORATE",
+  "master":{"web":"design/master/svg/01_Home_WEB_MASTER.svg","mobile":"design/master/svg/01_Home_MOBILE_MASTER.svg","spec":"design/master/MASTER_SPEC.md"},
+  "identity":{"mood":["premium","trustworthy","corporate","Vietnamese-inspired"],"palette":"near-black + restrained metallic gold","brandAsset":"brand-logo-lac-viet-supplied-raster"},
+  "mustPreserve":["black/gold identity","headline hierarchy","brand mark identity","section order","independent mobile composition","restrained glow","live semantic text"],
+  "mustNot":["neon cyberpunk styling","generic SaaS blue look","gamer styling","redraw/replace brand logo","fabricate verified proof","guarantee account recovery","advertise unauthorized credentials"]
+}
