@@ -1,0 +1,23 @@
+{
+  "version": "gd2-svg-master-0.1",
+  "status": "PROVISIONAL_UNTIL_FONT_BINARY_LOCK",
+  "families": {
+    "display": {
+      "preferred": "premium Vietnamese-compatible display serif or high-contrast display face",
+      "fallback": "Georgia, serif",
+      "note": "Exact redistributable font file must be locked before MASTER_READY."
+    },
+    "ui": {
+      "preferred": "Inter",
+      "fallback": "Arial, sans-serif"
+    }
+  },
+  "roles": {
+    "heroTitle": {"webPx": 74, "mobilePx": 61, "weight": 900, "color": "#F7F2E8"},
+    "heroAccent": {"webPx": 74, "mobilePx": 52, "weight": 900, "colorToken": "goldPrimary"},
+    "sectionTitle": {"webPx": 34, "mobilePx": 32, "weight": 800, "trackingPx": 2},
+    "cardTitle": {"webPx": 28, "mobilePx": 22, "weight": 800},
+    "body": {"webPx": 20, "mobilePx": 18, "weight": 400},
+    "button": {"webPx": 24, "mobilePx": 20, "weight": 800}
+  }
+}
