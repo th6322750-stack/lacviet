@@ -1,20 +1,89 @@
 {
-  "version": "gd2-svg-master-0.1",
+  "version": "gd2-svg-master-1.0",
+  "direction": "PA1_BLACK_GOLD_LUXURY_CORPORATE",
+  "stateContract": "design/master/component-states.json",
+  "responsiveContract": "design/master/responsive.json",
   "components": [
-    {"id":"Header","states":["default","sticky","mobile-menu-open"],"mustNot":["change approved black/gold identity"]},
-    {"id":"Hero","states":["default"],"mustNot":["replace supplied brand emblem with generic phoenix"]},
-    {"id":"PrimaryCTA","states":["default","hover","focus","disabled"],"visual":"metallic gold fill on dark surface"},
-    {"id":"SecondaryCTA","states":["default","hover","focus"],"visual":"dark fill + gold border"},
-    {"id":"ProofStrip","states":["default"],"data":"placeholder until real metrics supplied"},
-    {"id":"ServiceCard","variants":["ads","appeal","account-infra","digital-products","training","operations"],"states":["default","hover","focus"]},
-    {"id":"ProductCard","states":["default","hover","unavailable"],"data":"placeholder until authorized catalog supplied"},
-    {"id":"ProcessStep","variants":["01","02","03","04","05"],"states":["default","active"]},
-    {"id":"TestimonialCard","states":["default"],"data":"placeholder until real testimonial supplied"},
-    {"id":"FinalCTA","states":["default"]},
-    {"id":"Footer","states":["default"]}
+    {
+      "componentId": "Header",
+      "implementationTarget": "SiteHeader",
+      "variants": ["desktop", "mobile"],
+      "states": ["default", "sticky", "mobile-menu-open"],
+      "requiredAssets": ["brand-logo-lac-viet-supplied-raster"],
+      "mustNot": ["replace supplied logo", "introduce generic SaaS navigation styling"]
+    },
+    {
+      "componentId": "Hero",
+      "implementationTarget": "HomeHero",
+      "variants": ["desktop-split", "mobile-vertical"],
+      "states": ["default"],
+      "requiredAssets": ["brand-logo-lac-viet-supplied-raster"],
+      "mustNot": ["replace brand emblem with generic phoenix", "change approved headline hierarchy"]
+    },
+    {
+      "componentId": "PrimaryCTA",
+      "implementationTarget": "ButtonPrimary",
+      "states": ["default", "hover", "focus-visible", "active", "disabled"],
+      "visualRole": "metallic-gold primary conversion action"
+    },
+    {
+      "componentId": "SecondaryCTA",
+      "implementationTarget": "ButtonSecondary",
+      "states": ["default", "hover", "focus-visible", "active"],
+      "visualRole": "dark fill with metallic-gold border"
+    },
+    {
+      "componentId": "ProofStrip",
+      "implementationTarget": "MetricStrip",
+      "states": ["default"],
+      "dataContract": "PLACEHOLDER_UNTIL_REAL_METRICS"
+    },
+    {
+      "componentId": "ServiceCard",
+      "implementationTarget": "ServiceCard",
+      "variants": ["ads", "appeal", "account-infra", "digital-products", "training", "operations"],
+      "states": ["default", "hover", "focus-within"],
+      "mustNot": ["promise guaranteed recovery", "use unauthorized-account wording"]
+    },
+    {
+      "componentId": "ProductCard",
+      "implementationTarget": "ProductCard",
+      "states": ["default", "hover", "unavailable"],
+      "dataContract": "PLACEHOLDER_UNTIL_AUTHORIZED_CATALOG",
+      "mustNot": ["present demo subscription names as verified inventory"]
+    },
+    {
+      "componentId": "WhyChooseItem",
+      "implementationTarget": "TrustItem",
+      "states": ["default"]
+    },
+    {
+      "componentId": "ProcessStep",
+      "implementationTarget": "ProcessStep",
+      "variants": ["01", "02", "03", "04", "05"],
+      "states": ["default", "active", "complete"]
+    },
+    {
+      "componentId": "TestimonialCard",
+      "implementationTarget": "TestimonialCard",
+      "states": ["default", "carousel-active"],
+      "dataContract": "PLACEHOLDER_UNTIL_REAL_TESTIMONIALS"
+    },
+    {
+      "componentId": "FinalCTA",
+      "implementationTarget": "FinalCTA",
+      "states": ["default"]
+    },
+    {
+      "componentId": "Footer",
+      "implementationTarget": "SiteFooter",
+      "states": ["default"],
+      "dataContract": "CONTACT_DETAILS_PLACEHOLDER"
+    }
   ],
-  "responsive": {
-    "web": "three-column service rhythm; wide hero split",
-    "mobile": "two-column/stacked card rhythm; independent vertical hero composition"
+  "completeness": {
+    "visibleApprovedComponentsCovered": true,
+    "interactiveVisualStatesCovered": true,
+    "desktopMobileVariantsCovered": true
   }
 }
