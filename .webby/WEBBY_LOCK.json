@@ -1,7 +1,11 @@
 {
+  "schemaVersion":"2.0.0",
+  "skillVersion":"2.0.0",
   "protocolVersion":"2.0.0",
+  "handoffId":"lacviet-gd3-draft-001",
   "status":"DRAFT_INCOMPLETE",
   "uiRevision":"gd3-in-progress-001",
+  "uiCommit":null,
   "lockedBy":"CHATGPT",
   "implementationAllowed":false,
   "files":[
