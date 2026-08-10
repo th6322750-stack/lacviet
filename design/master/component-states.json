@@ -1,0 +1,59 @@
+{
+  "version": "gd2-svg-master-1.0",
+  "stateContract": {
+    "Header": {
+      "default": {"background": "transparent/dark", "navActive": "gold underline", "logo": "authoritative supplied brand source"},
+      "sticky": {"background": "rgba(5,5,5,0.94)", "borderBottom": "1px rgba(243,198,93,0.22)", "backdropBlurPx": 14},
+      "mobileMenuOpen": {"panel": "#090909", "border": "gold-low", "bodyScroll": "locked"}
+    },
+    "PrimaryCTA": {
+      "default": {"fill": "gold-gradient", "text": "#080808", "shadow": "subtle gold only"},
+      "hover": {"translateY": -2, "brightness": 1.08, "shadow": "gold medium"},
+      "focusVisible": {"outline": "3px #FFF1A8", "outlineOffsetPx": 3},
+      "active": {"translateY": 0, "brightness": 0.96},
+      "disabled": {"opacity": 0.45, "pointer": "not-allowed", "shadow": "none"}
+    },
+    "SecondaryCTA": {
+      "default": {"fill": "#070707", "border": "2px #D9A53B", "text": "#F3C65D"},
+      "hover": {"fill": "rgba(243,198,93,0.08)", "border": "#FFF1A8"},
+      "focusVisible": {"outline": "3px #FFF1A8", "outlineOffsetPx": 3},
+      "active": {"fill": "rgba(243,198,93,0.14)"}
+    },
+    "ServiceCard": {
+      "default": {"surface": "surfaceRaised", "border": "borderGold", "icon": "gold"},
+      "hover": {"translateY": -6, "border": "goldPrimary", "glow": "restrained"},
+      "focusWithin": {"outline": "2px #FFF1A8", "outlineOffsetPx": 4}
+    },
+    "ProductCard": {
+      "default": {"surface": "surfaceRaised", "border": "borderGold"},
+      "hover": {"translateY": -4, "border": "goldPrimary"},
+      "unavailable": {"opacity": 0.5, "badge": "Tạm hết", "ctaDisabled": true}
+    },
+    "ProcessStep": {
+      "default": {"numberRing": "gold-dark", "connector": "gold-low"},
+      "active": {"numberRing": "goldPrimary", "connector": "goldPrimary", "glow": "small"},
+      "complete": {"numberGlyph": "check", "numberRing": "goldPrimary"}
+    },
+    "TestimonialCard": {
+      "default": {"surface": "surfaceRaised", "border": "borderGold"},
+      "carouselActive": {"border": "goldPrimary"}
+    },
+    "FAQItem": {
+      "closed": {"contentVisible": false, "iconRotationDeg": 0},
+      "open": {"contentVisible": true, "iconRotationDeg": 45, "border": "goldPrimary"},
+      "focusVisible": {"outline": "2px #FFF1A8"}
+    },
+    "Input": {
+      "default": {"surface": "#090909", "border": "#4E3B16", "text": "textPrimary"},
+      "focus": {"border": "goldPrimary", "outline": "2px rgba(243,198,93,0.30)"},
+      "error": {"border": "#D75A4A", "message": "visible"},
+      "disabled": {"opacity": 0.5}
+    }
+  },
+  "mustNot": [
+    "introduce neon blue/purple cyberpunk states",
+    "replace metallic gold with flat yellow",
+    "use generic component-library defaults",
+    "invent recovery-success guarantees or verified badges"
+  ]
+}
