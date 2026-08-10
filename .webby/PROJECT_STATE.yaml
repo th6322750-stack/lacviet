@@ -55,18 +55,22 @@ ui_setup:
   svg_qa_pass: true
   typography_complete: true
   tokens_complete: true
-  placement_complete: false
+  placement_complete: true
   responsive_complete: true
+  maps_published: true
+  canonical_service_icons_published: true
   github_published: false
   handoff_ready: false
   ui_setup_complete: false
   ui_revision: "gd3-in-progress-001"
   ui_commit: null
+  validation:
+    schema_crossref_mirror: PASS
+    github_required_files_verified: true
+    final_validator: PENDING_FINAL_LOCK
   blockers:
-    - "bind/package authoritative supplied logo binary in GĐ3 asset pack"
-    - "create production asset/icon manifest and canonical files"
-    - "finish route/section/component/placement maps"
-    - "publish HANDOFF/LOCK and validate cross-references"
+    - "bind/package authoritative supplied logo PNG binary into GĐ3 asset hierarchy"
+    - "after binary binding: set deterministic final uiCommit, finalize WEBBY_LOCK/HANDOFF, run final validation"
 
 implementation:
   executor: CLAUDE
