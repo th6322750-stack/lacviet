@@ -1,0 +1,15 @@
+{
+  "version":"gd3-0.1",
+  "interactions":[
+    {"interactionId":"nav-scroll","componentId":"Header","trigger":"click nav item","behavior":"scroll to approved section anchor","motion":"smooth unless reduced-motion"},
+    {"interactionId":"header-sticky","componentId":"Header","trigger":"scroll past hero header threshold","behavior":"switch to sticky visual state","mustNot":"resize/reflow enough to cause layout jump"},
+    {"interactionId":"mobile-menu","componentId":"Header","trigger":"menu button","behavior":"open/close accessible navigation drawer; trap focus while open; Escape closes"},
+    {"interactionId":"primary-contact","componentId":"PrimaryCTA","trigger":"click","behavior":"open configured primary contact destination","destination":"PLACEHOLDER_UNTIL_REAL_ZALO_OR_CONTACT"},
+    {"interactionId":"secondary-contact","componentId":"SecondaryCTA","trigger":"click","behavior":"open configured secondary contact destination","destination":"PLACEHOLDER_UNTIL_REAL_TELEGRAM_OR_CONTACT"},
+    {"interactionId":"service-card-feedback","componentId":"ServiceCard","trigger":"hover/focus","behavior":"apply approved raised-card state; no content movement beyond specified translate"},
+    {"interactionId":"product-card-feedback","componentId":"ProductCard","trigger":"hover/focus","behavior":"apply approved border/elevation feedback"},
+    {"interactionId":"testimonial-mobile","componentId":"TestimonialCard","trigger":"swipe/button","behavior":"move one testimonial at a time when carousel implementation is chosen"}
+  ],
+  "motion":{"durationFastMs":160,"durationDefaultMs":240,"easing":"cubic-bezier(0.2,0.8,0.2,1)","reducedMotion":"disable non-essential transforms and smooth scrolling"},
+  "mustNot":["add flashy parallax or neon particle effects","change visual hierarchy through animation","auto-play aggressive carousels"]
+}
