@@ -1,0 +1,65 @@
+{
+  "version": "gd2-svg-master-1.0",
+  "referenceViewports": {
+    "desktopMaster": {"width": 1920, "master": "design/master/svg/01_Home_WEB_MASTER.svg"},
+    "mobileMaster": {"width": 1080, "master": "design/master/svg/01_Home_MOBILE_MASTER.svg"}
+  },
+  "implementationBreakpoints": {
+    "mobile": {"maxPx": 767},
+    "tablet": {"minPx": 768, "maxPx": 1199},
+    "desktop": {"minPx": 1200}
+  },
+  "rules": {
+    "Header": {
+      "desktop": "full nav + primary CTA",
+      "tablet": "condense nav spacing; keep CTA when width permits",
+      "mobile": "logo + menu trigger; navigation moves into drawer"
+    },
+    "Hero": {
+      "desktop": "two-column split: copy left, brand-emblem visual right",
+      "tablet": "copy 52–56% / visual remainder; reduce headline size, preserve hierarchy",
+      "mobile": "independent vertical composition: copy first, emblem second, CTAs full-width/two-row as needed"
+    },
+    "ProofStrip": {
+      "desktop": "single horizontal row",
+      "tablet": "3+2 wrapping grid",
+      "mobile": "2-column grid, final odd item may span 2 columns"
+    },
+    "ServiceGrid": {
+      "desktop": "3 columns",
+      "tablet": "2 columns",
+      "mobile": "2 columns at 1080 design master; collapse to 1 column below 520 CSS px"
+    },
+    "ProductStrip": {
+      "desktop": "multi-card row or grid with equal card rhythm",
+      "tablet": "3 columns",
+      "mobile": "2 columns; 1 column below 420 CSS px"
+    },
+    "WhyProcess": {
+      "desktop": "two major panels side-by-side",
+      "tablet": "stack panels",
+      "mobile": "stack; process becomes vertical timeline"
+    },
+    "Testimonials": {
+      "desktop": "3 cards visible",
+      "tablet": "2 cards visible",
+      "mobile": "1 card visible carousel or stacked cards"
+    },
+    "FinalCTA": {
+      "desktop": "copy left, actions right",
+      "mobile": "centered copy + stacked full-width actions"
+    },
+    "Footer": {
+      "desktop": "multi-column",
+      "mobile": "stacked sections with reduced visual density"
+    }
+  },
+  "safety": {
+    "minTapTargetCssPx": 44,
+    "noHorizontalOverflow": true,
+    "preserveLogoAspectRatio": true,
+    "mobileIsNotScaledDesktop": true,
+    "textMayReflow": true,
+    "importantLineBreaks": ["TỐI ƯU HIỆU QUẢ", "BỨT PHÁ MỌI GIỚI HẠN"]
+  }
+}
