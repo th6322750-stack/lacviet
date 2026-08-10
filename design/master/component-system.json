@@ -1,0 +1,20 @@
+{
+  "version": "gd2-svg-master-0.1",
+  "components": [
+    {"id":"Header","states":["default","sticky","mobile-menu-open"],"mustNot":["change approved black/gold identity"]},
+    {"id":"Hero","states":["default"],"mustNot":["replace supplied brand emblem with generic phoenix"]},
+    {"id":"PrimaryCTA","states":["default","hover","focus","disabled"],"visual":"metallic gold fill on dark surface"},
+    {"id":"SecondaryCTA","states":["default","hover","focus"],"visual":"dark fill + gold border"},
+    {"id":"ProofStrip","states":["default"],"data":"placeholder until real metrics supplied"},
+    {"id":"ServiceCard","variants":["ads","appeal","account-infra","digital-products","training","operations"],"states":["default","hover","focus"]},
+    {"id":"ProductCard","states":["default","hover","unavailable"],"data":"placeholder until authorized catalog supplied"},
+    {"id":"ProcessStep","variants":["01","02","03","04","05"],"states":["default","active"]},
+    {"id":"TestimonialCard","states":["default"],"data":"placeholder until real testimonial supplied"},
+    {"id":"FinalCTA","states":["default"]},
+    {"id":"Footer","states":["default"]}
+  ],
+  "responsive": {
+    "web": "three-column service rhythm; wide hero split",
+    "mobile": "two-column/stacked card rhythm; independent vertical hero composition"
+  }
+}
