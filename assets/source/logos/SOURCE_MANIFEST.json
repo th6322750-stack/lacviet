@@ -1,0 +1,25 @@
+{
+  "version": "gd2-svg-master-1.0",
+  "assets": [
+    {
+      "assetId": "brand-logo-lac-viet-supplied-raster",
+      "role": "authoritative-brand-source",
+      "sourceAuthority": "USER_SUPPLIED_ORIGINAL_IN_CHAT",
+      "originalFilename": "52d04c00-f2e9-407b-943e-57990f859efd.png",
+      "mime": "image/png",
+      "width": 316,
+      "height": 307,
+      "colorMode": "RGBA",
+      "sha256": "71c0b2a2525685c7526c6155f1ade977ff998f0b634feada31a73464cb5c66e3",
+      "binaryInRepository": false,
+      "binaryPackagingStage": "GĐ3",
+      "reasonBinaryDeferred": "The visual source is locked by checksum and dimensions in GĐ2; canonical binary placement is deferred to GĐ3 production asset packaging.",
+      "reconstructionStatus": "NONE",
+      "mustNot": [
+        "redraw the bird/wordmark by eye",
+        "replace it with a generic phoenix",
+        "change gold/black brand identity without approval"
+      ]
+    }
+  ]
+}
