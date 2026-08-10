@@ -1,23 +1,37 @@
 {
-  "version": "gd2-svg-master-0.1",
-  "status": "PROVISIONAL_UNTIL_FONT_BINARY_LOCK",
+  "version": "gd2-svg-master-1.0",
+  "status": "LOCKED_BY_FONT_MANIFEST",
+  "fontManifest": "design/master/font-manifest.json",
   "families": {
     "display": {
-      "preferred": "premium Vietnamese-compatible display serif or high-contrast display face",
+      "family": "Cormorant Garamond",
+      "weights": [600, 700],
       "fallback": "Georgia, serif",
-      "note": "Exact redistributable font file must be locked before MASTER_READY."
+      "usage": "selected premium section/display moments only"
     },
     "ui": {
-      "preferred": "Inter",
-      "fallback": "Arial, sans-serif"
+      "family": "Inter",
+      "weights": [400, 500, 600, 700, 800, 900],
+      "fallback": "Arial, sans-serif",
+      "usage": "navigation, hero performance headline, body, cards, buttons, metrics, footer"
     }
   },
   "roles": {
-    "heroTitle": {"webPx": 74, "mobilePx": 61, "weight": 900, "color": "#F7F2E8"},
-    "heroAccent": {"webPx": 74, "mobilePx": 52, "weight": 900, "colorToken": "goldPrimary"},
-    "sectionTitle": {"webPx": 34, "mobilePx": 32, "weight": 800, "trackingPx": 2},
-    "cardTitle": {"webPx": 28, "mobilePx": 22, "weight": 800},
-    "body": {"webPx": 20, "mobilePx": 18, "weight": 400},
-    "button": {"webPx": 24, "mobilePx": 20, "weight": 800}
-  }
+    "brandWordmark": {"source": "supplied raster logo; do not rebuild with type"},
+    "eyebrow": {"family": "Inter", "weight": 700, "webPx": 20, "mobilePx": 20, "trackingPx": 1, "colorToken": "goldPrimary"},
+    "heroTitle": {"family": "Inter", "webPx": 74, "mobilePx": 61, "weight": 900, "lineHeight": 1.04, "color": "#F7F2E8"},
+    "heroAccent": {"family": "Inter", "webPx": 74, "mobilePx": 52, "weight": 900, "lineHeight": 1.04, "colorToken": "goldPrimary"},
+    "sectionTitle": {"family": "Cormorant Garamond", "webPx": 36, "mobilePx": 34, "weight": 700, "lineHeight": 1.1, "trackingPx": 1.5, "colorToken": "goldPrimary"},
+    "cardTitle": {"family": "Inter", "webPx": 28, "mobilePx": 22, "weight": 800, "lineHeight": 1.2, "colorToken": "goldPrimary"},
+    "metric": {"family": "Inter", "webPx": 38, "mobilePx": 34, "weight": 900, "lineHeight": 1.0, "colorToken": "goldPrimary"},
+    "bodyLg": {"family": "Inter", "webPx": 28, "mobilePx": 21, "weight": 400, "lineHeight": 1.5, "colorToken": "textSecondary"},
+    "body": {"family": "Inter", "webPx": 20, "mobilePx": 18, "weight": 400, "lineHeight": 1.55, "colorToken": "textSecondary"},
+    "button": {"family": "Inter", "webPx": 24, "mobilePx": 20, "weight": 800, "lineHeight": 1.0},
+    "caption": {"family": "Inter", "webPx": 16, "mobilePx": 15, "weight": 500, "lineHeight": 1.4}
+  },
+  "mustNot": [
+    "replace Cormorant Garamond/Inter with visually unrelated fonts without approval",
+    "convert normal UI copy to outlines/paths",
+    "recreate the supplied Lạc Việt wordmark using a font"
+  ]
 }
