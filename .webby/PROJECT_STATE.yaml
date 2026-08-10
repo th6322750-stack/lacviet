@@ -1,0 +1,64 @@
+project_name: "Lac Viet Media Agency"
+project_type: LANDING_PAGE
+phase: DESIGN
+
+input:
+  normalized: true
+  blockers: []
+  assumptions:
+    - "Public-facing copy will describe account recovery only as official appeal/support for legitimate account owners."
+    - "Digital account/software offerings must be limited to lawful, authorized, redistributable products or licenses."
+    - "Primary service scope: multi-platform advertising, official account appeal/support, advertising account solutions, digital software/AI products, MMO consulting/training."
+
+drive:
+  connected: unknown
+  writable: unknown
+  project_folder: null
+  uploads_verified: false
+
+design:
+  research_complete: true
+  demo_direction_count: 3
+  demo_previews_rendered: true
+  selected_directions:
+    - "PA1_BLACK_GOLD_LUXURY_CORPORATE"
+  direction_locked: true
+  sitemap:
+    - "/"
+  web_approved: false
+  mobile_approved: false
+  fonts_packaged: false
+
+master:
+  mode: UNDECIDED
+  ready: false
+
+ui_setup:
+  components_complete: false
+  states_complete: false
+  assets_complete: false
+  svg_qa_pass: false
+  typography_complete: false
+  tokens_complete: false
+  placement_complete: false
+  responsive_complete: false
+  github_published: false
+  handoff_ready: false
+  ui_setup_complete: false
+  ui_commit: null
+
+implementation:
+  executor: CLAUDE
+  consumed_ui_commit: null
+  static_ui_pass: false
+  ux_pass: false
+  functional_pass: false
+
+qa:
+  visual_pass: false
+  responsive_pass: false
+  accessibility_pass: false
+  performance_pass: false
+  backend_pass: false
+
+production_ready: false
