@@ -51,7 +51,7 @@ master:
 ui_setup:
   components_complete: true
   states_complete: true
-  assets_complete: false
+  assets_complete: true
   svg_qa_pass: true
   typography_complete: true
   tokens_complete: true
@@ -59,18 +59,19 @@ ui_setup:
   responsive_complete: true
   maps_published: true
   canonical_service_icons_published: true
-  github_published: false
-  handoff_ready: false
+  production_logo_bound: true
+  production_logo_path: "assets/production/logos/lac-viet-logo.webp"
+  github_published: true
+  handoff_ready: true
   ui_setup_complete: false
-  ui_revision: "gd3-in-progress-001"
+  ui_revision: "lacviet-ui-001"
   ui_commit: null
   validation:
     schema_crossref_mirror: PASS
     github_required_files_verified: true
     final_validator: PENDING_FINAL_LOCK
   blockers:
-    - "bind/package authoritative supplied logo PNG binary into GĐ3 asset hierarchy"
-    - "after binary binding: set deterministic final uiCommit, finalize WEBBY_LOCK/HANDOFF, run final validation"
+    - "finalize deterministic HANDOFF/WEBBY_LOCK with the frozen UI package commit"
 
 implementation:
   executor: CLAUDE
