@@ -1,0 +1,23 @@
+{
+  "version": "gd3-0.1",
+  "source": "design/master/component-system.json",
+  "components": [
+    {"componentId":"Header","implementationTarget":"src/components/site/SiteHeader","parentComponentId":null,"states":["default","sticky","mobile-menu-open"],"requiredAssets":["brand-logo-lac-viet-supplied-raster"],"responsive":"desktop full nav; mobile drawer trigger"},
+    {"componentId":"Hero","implementationTarget":"src/components/home/HomeHero","parentComponentId":null,"states":["default"],"requiredAssets":["brand-logo-lac-viet-supplied-raster"],"responsive":"desktop split; mobile vertical"},
+    {"componentId":"PrimaryCTA","implementationTarget":"src/components/ui/PrimaryCTA","states":["default","hover","focus-visible","active","disabled"],"requiredAssets":["icon-cta-send"]},
+    {"componentId":"SecondaryCTA","implementationTarget":"src/components/ui/SecondaryCTA","states":["default","hover","focus-visible","active"],"requiredAssets":["icon-cta-send"]},
+    {"componentId":"ProofStrip","implementationTarget":"src/components/home/ProofStrip","states":["default"],"dataContract":"PLACEHOLDER_UNTIL_REAL_METRICS"},
+    {"componentId":"ServiceCard","implementationTarget":"src/components/home/ServiceCard","variants":["ads","appeal","account-infra","digital-products","training","operations"],"states":["default","hover","focus-within"],"requiredAssets":["icon-service-ads","icon-service-appeal","icon-service-account-infra","icon-service-digital","icon-service-training","icon-service-operations"]},
+    {"componentId":"ProductCard","implementationTarget":"src/components/home/ProductCard","states":["default","hover","unavailable"],"dataContract":"PLACEHOLDER_UNTIL_AUTHORIZED_CATALOG"},
+    {"componentId":"WhyChooseItem","implementationTarget":"src/components/home/TrustItem","states":["default"]},
+    {"componentId":"ProcessStep","implementationTarget":"src/components/home/ProcessStep","variants":["01","02","03","04","05"],"states":["default","active","complete"]},
+    {"componentId":"TestimonialCard","implementationTarget":"src/components/home/TestimonialCard","states":["default","carousel-active"],"dataContract":"PLACEHOLDER_UNTIL_REAL_TESTIMONIALS"},
+    {"componentId":"FinalCTA","implementationTarget":"src/components/home/FinalCTA","states":["default"],"requiredAssets":["icon-support-headset"]},
+    {"componentId":"Footer","implementationTarget":"src/components/site/SiteFooter","states":["default"],"requiredAssets":["brand-logo-lac-viet-supplied-raster"]}
+  ],
+  "mustNot": [
+    "invent a different component visual language",
+    "substitute approved brand or service icons without a request",
+    "treat implementationTarget paths as permission to redesign"
+  ]
+}
