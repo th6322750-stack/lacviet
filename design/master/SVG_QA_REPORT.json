@@ -1,0 +1,54 @@
+{
+  "version": "gd2-svg-master-1.0",
+  "status": "PASS_WITH_GD3_ASSET_BINDING_REQUIRED",
+  "checkedMasters": [
+    {
+      "path": "design/master/svg/01_Home_WEB_MASTER.svg",
+      "referenceViewport": "1920x5480",
+      "checks": {
+        "validRootSvg": true,
+        "viewBoxPresent": true,
+        "structuredSectionGroups": true,
+        "liveTextRetained": true,
+        "fullPageScreenshotEmbedded": false,
+        "unsafeScriptOrEventHandlers": false,
+        "unexpectedExternalReferences": false,
+        "duplicateKnownIds": false,
+        "brandSourceSlotExplicit": true,
+        "placeholderContentExplicit": true
+      }
+    },
+    {
+      "path": "design/master/svg/01_Home_MOBILE_MASTER.svg",
+      "referenceViewport": "1080x7650",
+      "checks": {
+        "validRootSvg": true,
+        "viewBoxPresent": true,
+        "independentMobileComposition": true,
+        "liveTextRetained": true,
+        "fullPageScreenshotEmbedded": false,
+        "unsafeScriptOrEventHandlers": false,
+        "unexpectedExternalReferences": false,
+        "duplicateKnownIds": false,
+        "brandSourceSlotExplicit": true,
+        "placeholderContentExplicit": true
+      }
+    }
+  ],
+  "sourceFidelity": {
+    "approvedDirection": "PA1_BLACK_GOLD_LUXURY_CORPORATE",
+    "paletteMatch": "PASS",
+    "hierarchyMatch": "PASS",
+    "desktopMobileIntent": "PASS",
+    "brandEmblemDecision": "LOCKED_TO_USER_SUPPLIED_RASTER_SOURCE",
+    "brandBinaryBinding": "DEFERRED_TO_GĐ3",
+    "note": "GĐ2 does not redraw or substitute the supplied mark; the exact source is checksum-locked in assets/source/logos/SOURCE_MANIFEST.json."
+  },
+  "hardFailures": [],
+  "warnings": [
+    "Demo metrics/testimonials/catalog/contact details must be replaced before production.",
+    "Actual logo binary must be placed/bound during GĐ3 production asset packaging.",
+    "Font binaries are intentionally absent; use design/master/font-manifest.json acquisition contract."
+  ],
+  "masterReadyRecommendation": true
+}
