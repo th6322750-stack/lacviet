@@ -1,0 +1,93 @@
+{
+  "version": "gd3-0.1",
+  "assets": [
+    {
+      "assetId": "brand-logo-lac-viet-supplied-raster",
+      "type": "brand-logo-source",
+      "sourceManifest": "assets/source/logos/SOURCE_MANIFEST.json",
+      "productionFile": null,
+      "status": "SOURCE_LOCKED_BINARY_BINDING_PENDING",
+      "colorPolicy": "FIXED_BRAND",
+      "accessibility": "INFORMATIVE",
+      "usedBy": ["Header", "Hero", "Footer"],
+      "mustNot": ["redraw by eye", "replace with generic phoenix", "recolor without approval"]
+    },
+    {
+      "assetId": "icon-service-ads",
+      "type": "svg-icon",
+      "file": "assets/production/svg/icon-service-ads.svg",
+      "status": "READY",
+      "colorPolicy": "THEMEABLE",
+      "accessibility": "INFORMATIVE",
+      "usedBy": ["ServiceCard:ads"]
+    },
+    {
+      "assetId": "icon-service-appeal",
+      "type": "svg-icon",
+      "file": "assets/production/svg/icon-service-appeal.svg",
+      "status": "READY",
+      "colorPolicy": "THEMEABLE",
+      "accessibility": "INFORMATIVE",
+      "usedBy": ["ServiceCard:appeal"]
+    },
+    {
+      "assetId": "icon-service-account-infra",
+      "type": "svg-icon",
+      "file": "assets/production/svg/icon-service-account-infra.svg",
+      "status": "READY",
+      "colorPolicy": "THEMEABLE",
+      "accessibility": "INFORMATIVE",
+      "usedBy": ["ServiceCard:account-infra"]
+    },
+    {
+      "assetId": "icon-service-digital",
+      "type": "svg-icon",
+      "file": "assets/production/svg/icon-service-digital.svg",
+      "status": "READY",
+      "colorPolicy": "THEMEABLE",
+      "accessibility": "INFORMATIVE",
+      "usedBy": ["ServiceCard:digital-products"]
+    },
+    {
+      "assetId": "icon-service-training",
+      "type": "svg-icon",
+      "file": "assets/production/svg/icon-service-training.svg",
+      "status": "READY",
+      "colorPolicy": "THEMEABLE",
+      "accessibility": "INFORMATIVE",
+      "usedBy": ["ServiceCard:training"]
+    },
+    {
+      "assetId": "icon-service-operations",
+      "type": "svg-icon",
+      "file": "assets/production/svg/icon-service-operations.svg",
+      "status": "READY",
+      "colorPolicy": "THEMEABLE",
+      "accessibility": "INFORMATIVE",
+      "usedBy": ["ServiceCard:operations"]
+    },
+    {
+      "assetId": "icon-cta-send",
+      "type": "svg-icon",
+      "file": "assets/production/svg/icon-cta-send.svg",
+      "status": "READY",
+      "colorPolicy": "THEMEABLE",
+      "accessibility": "DECORATIVE",
+      "usedBy": ["PrimaryCTA", "SecondaryCTA"]
+    },
+    {
+      "assetId": "icon-support-headset",
+      "type": "svg-icon",
+      "file": "assets/production/svg/icon-support-headset.svg",
+      "status": "READY",
+      "colorPolicy": "THEMEABLE",
+      "accessibility": "DECORATIVE",
+      "usedBy": ["FinalCTA"]
+    }
+  ],
+  "blockingAssets": ["brand-logo-lac-viet-supplied-raster"],
+  "notes": [
+    "Third-party platform/product logos are not recreated as custom production assets in this package; use authorized official marks only when legally permitted.",
+    "Demo product names are content placeholders, not proof of authorized inventory."
+  ]
+}
