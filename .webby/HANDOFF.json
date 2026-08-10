@@ -1,13 +1,14 @@
 {
   "schemaVersion":"2.0.0",
   "protocolVersion":"2.0.0",
-  "handoffId":"lacviet-gd3-draft-001",
-  "uiRevision":"gd3-in-progress-001",
+  "handoffId":"lacviet-ui-001",
+  "uiRevision":"lacviet-ui-001",
+  "uiCommit":"9950016e51e2fc80ed531a4a45a96f08ed2aded8",
+  "parentUiCommit":null,
+  "createdAt":"2026-08-11T02:25:00+07:00",
   "producer":"CHATGPT",
   "executor":"CLAUDE",
-  "status":"UI_SETUP_IN_PROGRESS",
-  "uiCommit":null,
-  "parentUiCommit":null,
+  "status":"UI_SETUP_COMPLETE",
   "requiredInputs":[
     ".webby/CLAUDE_TASK.md",
     ".webby/visual-contract.json",
@@ -21,12 +22,16 @@
     ".webby/responsive.json",
     ".webby/interactions.json",
     "design/master/MASTER_SPEC.md",
+    "design/master/font-manifest.json",
     "design/master/svg/01_Home_WEB_MASTER.svg",
-    "design/master/svg/01_Home_MOBILE_MASTER.svg"
+    "design/master/svg/01_Home_MOBILE_MASTER.svg",
+    "assets/source/logos/SOURCE_MANIFEST.json",
+    "assets/production/logos/lac-viet-logo.webp"
   ],
-  "blockingItems":[
-    "brand-logo-lac-viet-supplied-raster production binary binding is pending",
-    "WEBBY_LOCK remains draft until asset pack validation passes"
-  ],
-  "implementationAllowed":false
+  "blockingItems":[],
+  "placeholderContent":{
+    "allowedDuringImplementation":true,
+    "mustReplaceBeforeProduction":["metrics","testimonials","product catalog/inventory","contact destinations"]
+  },
+  "implementationAllowed":true
 }
