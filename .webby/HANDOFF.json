@@ -1,0 +1,31 @@
+{
+  "protocolVersion":"2.0.0",
+  "handoffId":"lacviet-gd3-draft-001",
+  "uiRevision":"gd3-in-progress-001",
+  "producer":"CHATGPT",
+  "executor":"CLAUDE",
+  "status":"UI_SETUP_IN_PROGRESS",
+  "uiCommit":null,
+  "parentUiCommit":null,
+  "requiredInputs":[
+    ".webby/CLAUDE_TASK.md",
+    ".webby/visual-contract.json",
+    ".webby/asset-manifest.json",
+    ".webby/component-map.json",
+    ".webby/placement-map.json",
+    ".webby/route-map.json",
+    ".webby/section-map.json",
+    ".webby/typography.json",
+    ".webby/tokens.json",
+    ".webby/responsive.json",
+    ".webby/interactions.json",
+    "design/master/MASTER_SPEC.md",
+    "design/master/svg/01_Home_WEB_MASTER.svg",
+    "design/master/svg/01_Home_MOBILE_MASTER.svg"
+  ],
+  "blockingItems":[
+    "brand-logo-lac-viet-supplied-raster production binary binding is pending",
+    "WEBBY_LOCK remains draft until asset pack validation passes"
+  ],
+  "implementationAllowed":false
+}
