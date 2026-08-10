@@ -1,0 +1,77 @@
+{
+  "version": "gd3-0.1",
+  "referenceViewport": {"web":{"width":1920},"mobile":{"width":1080}},
+  "placements": [
+    {
+      "placementId":"placement-brand-header",
+      "assetId":"brand-logo-lac-viet-supplied-raster",
+      "containerId":"Header",
+      "coordinateSpace":"component",
+      "web":{"anchor":"left-center","maxWidthPx":250,"preserveAspectRatio":true},
+      "mobile":{"anchor":"left-center","maxWidthPx":260,"preserveAspectRatio":true},
+      "mustNot":["stretch","crop wordmark","recolor"]
+    },
+    {
+      "placementId":"placement-brand-hero",
+      "assetId":"brand-logo-lac-viet-supplied-raster",
+      "containerId":"Hero",
+      "coordinateSpace":"section",
+      "web":{"anchor":"right-center","widthPercent":34,"maxWidthPx":650,"objectFit":"contain"},
+      "mobile":{"anchor":"center","widthPercent":60,"maxWidthPx":650,"objectFit":"contain"},
+      "mustNot":["replace with generic phoenix","distort aspect ratio"]
+    },
+    {
+      "placementId":"placement-service-icons",
+      "componentId":"ServiceCard",
+      "coordinateSpace":"card",
+      "web":{"anchor":"top-left","offsetPx":{"x":40,"y":40},"sizePx":48},
+      "mobile":{"anchor":"top-center","offsetPx":{"x":0,"y":32},"sizePx":44},
+      "mustNot":["mix arbitrary icon families","use filled emoji icons"]
+    },
+    {
+      "placementId":"placement-proof-strip",
+      "componentId":"ProofStrip",
+      "containerId":"section-proof-strip",
+      "web":{"layout":"5-column-equal","gapPx":0},
+      "mobile":{"layout":"2-column-grid","gapPx":20},
+      "mustNot":["show demo metrics as verified facts"]
+    },
+    {
+      "placementId":"placement-service-grid",
+      "componentId":"ServiceCard",
+      "containerId":"section-services",
+      "web":{"columns":3,"gapPx":78,"cardMinHeightPx":300},
+      "mobile":{"columns":2,"gapPx":40,"collapseBelowCssPx":520},
+      "mustNot":["change service ordering without approval"]
+    },
+    {
+      "placementId":"placement-products",
+      "componentId":"ProductCard",
+      "containerId":"section-products",
+      "web":{"layout":"multi-card-row-or-grid","equalHeight":true},
+      "mobile":{"columns":2,"collapseBelowCssPx":420},
+      "mustNot":["treat placeholder products as confirmed inventory"]
+    },
+    {
+      "placementId":"placement-why-process",
+      "containerId":"section-why-process",
+      "web":{"layout":"two-panels","leftPercent":50,"rightPercent":50},
+      "mobile":{"layout":"stacked","processOrientation":"vertical"}
+    },
+    {
+      "placementId":"placement-testimonials",
+      "componentId":"TestimonialCard",
+      "containerId":"section-testimonials",
+      "web":{"visibleCards":3,"gapPx":78},
+      "mobile":{"visibleCards":1,"mode":"carousel-or-stacked"},
+      "mustNot":["publish demo testimonials as real"]
+    },
+    {
+      "placementId":"placement-final-cta",
+      "componentId":"FinalCTA",
+      "containerId":"section-final-cta",
+      "web":{"layout":"copy-left-actions-right"},
+      "mobile":{"layout":"centered-stacked-actions"}
+    }
+  ]
+}
