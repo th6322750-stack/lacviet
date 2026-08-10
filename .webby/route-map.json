@@ -1,0 +1,29 @@
+{
+  "version": "gd3-0.1",
+  "routes": [
+    {
+      "routeId": "route-home",
+      "path": "/",
+      "name": "Home",
+      "type": "LANDING_PAGE",
+      "webMaster": "design/master/svg/01_Home_WEB_MASTER.svg",
+      "mobileMaster": "design/master/svg/01_Home_MOBILE_MASTER.svg",
+      "sectionIds": [
+        "section-header",
+        "section-hero",
+        "section-proof-strip",
+        "section-services",
+        "section-products",
+        "section-why",
+        "section-process",
+        "section-testimonials",
+        "section-final-cta",
+        "section-footer"
+      ],
+      "mustNot": [
+        "add unapproved routes during static implementation",
+        "reorder major sections without ChatGPT approval"
+      ]
+    }
+  ]
+}
