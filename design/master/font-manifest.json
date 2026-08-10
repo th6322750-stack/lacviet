@@ -1,0 +1,30 @@
+{
+  "version": "gd2-svg-master-1.0",
+  "status": "LOCKED_BY_ACQUISITION_MANIFEST",
+  "fonts": [
+    {
+      "fontId": "display-primary",
+      "family": "Cormorant Garamond",
+      "roles": ["brand-display", "hero-display-accent", "selected-section-display"],
+      "requiredWeights": [600, 700],
+      "styles": ["normal"],
+      "source": "Google Fonts / upstream open-font distribution",
+      "binaryIncluded": false,
+      "reasonBinaryAbsent": "Use acquisition manifest instead of redistributing font binaries through this project setup.",
+      "fallback": "Georgia, serif",
+      "mustNot": ["substitute another display family without ChatGPT visual approval"]
+    },
+    {
+      "fontId": "ui-primary",
+      "family": "Inter",
+      "roles": ["navigation", "body", "button", "card", "metric", "form", "footer"],
+      "requiredWeights": [400, 500, 600, 700, 800, 900],
+      "styles": ["normal"],
+      "source": "Google Fonts / upstream open-font distribution",
+      "binaryIncluded": false,
+      "reasonBinaryAbsent": "Use acquisition manifest instead of redistributing font binaries through this project setup.",
+      "fallback": "Arial, sans-serif",
+      "mustNot": ["use system font as final production font when Inter can be acquired"]
+    }
+  ]
+}
