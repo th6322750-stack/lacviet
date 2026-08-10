@@ -2,10 +2,11 @@
   "version": "gd3-0.1",
   "assets": [
     {
+      "id": "brand-logo-lac-viet-supplied-raster",
       "assetId": "brand-logo-lac-viet-supplied-raster",
       "type": "brand-logo-source",
       "sourceManifest": "assets/source/logos/SOURCE_MANIFEST.json",
-      "productionFile": null,
+      "production": null,
       "status": "SOURCE_LOCKED_BINARY_BINDING_PENDING",
       "colorPolicy": "FIXED_BRAND",
       "accessibility": "INFORMATIVE",
@@ -13,72 +14,80 @@
       "mustNot": ["redraw by eye", "replace with generic phoenix", "recolor without approval"]
     },
     {
+      "id": "icon-service-ads",
       "assetId": "icon-service-ads",
       "type": "svg-icon",
-      "file": "assets/production/svg/icon-service-ads.svg",
+      "production": "assets/production/svg/icon-service-ads.svg",
       "status": "READY",
       "colorPolicy": "THEMEABLE",
       "accessibility": "INFORMATIVE",
       "usedBy": ["ServiceCard:ads"]
     },
     {
+      "id": "icon-service-appeal",
       "assetId": "icon-service-appeal",
       "type": "svg-icon",
-      "file": "assets/production/svg/icon-service-appeal.svg",
+      "production": "assets/production/svg/icon-service-appeal.svg",
       "status": "READY",
       "colorPolicy": "THEMEABLE",
       "accessibility": "INFORMATIVE",
       "usedBy": ["ServiceCard:appeal"]
     },
     {
+      "id": "icon-service-account-infra",
       "assetId": "icon-service-account-infra",
       "type": "svg-icon",
-      "file": "assets/production/svg/icon-service-account-infra.svg",
+      "production": "assets/production/svg/icon-service-account-infra.svg",
       "status": "READY",
       "colorPolicy": "THEMEABLE",
       "accessibility": "INFORMATIVE",
       "usedBy": ["ServiceCard:account-infra"]
     },
     {
+      "id": "icon-service-digital",
       "assetId": "icon-service-digital",
       "type": "svg-icon",
-      "file": "assets/production/svg/icon-service-digital.svg",
+      "production": "assets/production/svg/icon-service-digital.svg",
       "status": "READY",
       "colorPolicy": "THEMEABLE",
       "accessibility": "INFORMATIVE",
       "usedBy": ["ServiceCard:digital-products"]
     },
     {
+      "id": "icon-service-training",
       "assetId": "icon-service-training",
       "type": "svg-icon",
-      "file": "assets/production/svg/icon-service-training.svg",
+      "production": "assets/production/svg/icon-service-training.svg",
       "status": "READY",
       "colorPolicy": "THEMEABLE",
       "accessibility": "INFORMATIVE",
       "usedBy": ["ServiceCard:training"]
     },
     {
+      "id": "icon-service-operations",
       "assetId": "icon-service-operations",
       "type": "svg-icon",
-      "file": "assets/production/svg/icon-service-operations.svg",
+      "production": "assets/production/svg/icon-service-operations.svg",
       "status": "READY",
       "colorPolicy": "THEMEABLE",
       "accessibility": "INFORMATIVE",
       "usedBy": ["ServiceCard:operations"]
     },
     {
+      "id": "icon-cta-send",
       "assetId": "icon-cta-send",
       "type": "svg-icon",
-      "file": "assets/production/svg/icon-cta-send.svg",
+      "production": "assets/production/svg/icon-cta-send.svg",
       "status": "READY",
       "colorPolicy": "THEMEABLE",
       "accessibility": "DECORATIVE",
       "usedBy": ["PrimaryCTA", "SecondaryCTA"]
     },
     {
+      "id": "icon-support-headset",
       "assetId": "icon-support-headset",
       "type": "svg-icon",
-      "file": "assets/production/svg/icon-support-headset.svg",
+      "production": "assets/production/svg/icon-support-headset.svg",
       "status": "READY",
       "colorPolicy": "THEMEABLE",
       "accessibility": "DECORATIVE",
@@ -87,7 +96,7 @@
   ],
   "blockingAssets": ["brand-logo-lac-viet-supplied-raster"],
   "notes": [
-    "Third-party platform/product logos are not recreated as custom production assets in this package; use authorized official marks only when legally permitted.",
+    "Third-party platform/product logos are not recreated as custom production assets; use authorized official marks only when legally permitted.",
     "Demo product names are content placeholders, not proof of authorized inventory."
   ]
 }
