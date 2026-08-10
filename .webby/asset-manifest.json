@@ -1,17 +1,21 @@
 {
-  "version": "gd3-0.1",
+  "version": "gd3-1.0",
   "assets": [
     {
       "id": "brand-logo-lac-viet-supplied-raster",
       "assetId": "brand-logo-lac-viet-supplied-raster",
-      "type": "brand-logo-source",
+      "type": "brand-logo",
       "sourceManifest": "assets/source/logos/SOURCE_MANIFEST.json",
-      "production": null,
-      "status": "SOURCE_LOCKED_BINARY_BINDING_PENDING",
+      "production": "assets/production/logos/lac-viet-logo.webp",
+      "productionGitBlobSha": "80c4d54da0d5adba4ab84f52abcf125c4b04b49b",
+      "productionByteSize": 15009,
+      "status": "READY_SOURCE_DERIVED",
+      "sourceAuthority": "USER_SUPPLIED_ORIGINAL_IN_CHAT",
+      "reconstructionStatus": "NONE",
       "colorPolicy": "FIXED_BRAND",
       "accessibility": "INFORMATIVE",
       "usedBy": ["Header", "Hero", "Footer"],
-      "mustNot": ["redraw by eye", "replace with generic phoenix", "recolor without approval"]
+      "mustNot": ["redraw by eye", "replace with generic phoenix", "recolor without approval", "distort aspect ratio"]
     },
     {
       "id": "icon-service-ads",
@@ -94,8 +98,9 @@
       "usedBy": ["FinalCTA"]
     }
   ],
-  "blockingAssets": ["brand-logo-lac-viet-supplied-raster"],
+  "blockingAssets": [],
   "notes": [
+    "The production brand WebP is derived directly from the checksum-locked user-supplied PNG; it is not a redraw or AI reconstruction.",
     "Third-party platform/product logos are not recreated as custom production assets; use authorized official marks only when legally permitted.",
     "Demo product names are content placeholders, not proof of authorized inventory."
   ]
