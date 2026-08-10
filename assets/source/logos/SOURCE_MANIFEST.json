@@ -1,5 +1,5 @@
 {
-  "version": "gd2-svg-master-1.0",
+  "version": "gd3-1.0",
   "assets": [
     {
       "assetId": "brand-logo-lac-viet-supplied-raster",
@@ -11,14 +11,23 @@
       "height": 307,
       "colorMode": "RGBA",
       "sha256": "71c0b2a2525685c7526c6155f1ade977ff998f0b634feada31a73464cb5c66e3",
-      "binaryInRepository": false,
-      "binaryPackagingStage": "GĐ3",
-      "reasonBinaryDeferred": "The visual source is locked by checksum and dimensions in GĐ2; canonical binary placement is deferred to GĐ3 production asset packaging.",
+      "sourceBinaryInRepository": false,
+      "sourceBinaryAvailability": "conversation-supplied; exact source checksum preserved",
+      "productionDerivative": {
+        "path": "assets/production/logos/lac-viet-logo.webp",
+        "mime": "image/webp",
+        "width": 316,
+        "height": 307,
+        "gitBlobSha": "80c4d54da0d5adba4ab84f52abcf125c4b04b49b",
+        "byteSize": 15009,
+        "derivation": "direct raster format conversion from the supplied PNG; no redraw, no generative reconstruction"
+      },
       "reconstructionStatus": "NONE",
       "mustNot": [
         "redraw the bird/wordmark by eye",
         "replace it with a generic phoenix",
-        "change gold/black brand identity without approval"
+        "change gold/black brand identity without approval",
+        "claim the production WebP is an original vector source"
       ]
     }
   ]
