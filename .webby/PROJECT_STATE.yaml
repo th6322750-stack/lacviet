@@ -1,6 +1,6 @@
 project_name: "Lac Viet Media Agency"
 project_type: LANDING_PAGE
-phase: DESIGN
+phase: MASTER
 
 input:
   normalized: true
@@ -25,13 +25,25 @@ design:
   direction_locked: true
   sitemap:
     - "/"
-  web_approved: false
-  mobile_approved: false
+  web_approved: true
+  mobile_approved: true
   fonts_packaged: false
 
 master:
-  mode: UNDECIDED
+  mode: SVG_MASTER
   ready: false
+  baseline_published: true
+  web_master: "design/master/svg/01_Home_WEB_MASTER.svg"
+  mobile_master: "design/master/svg/01_Home_MOBILE_MASTER.svg"
+  spec: "design/master/MASTER_SPEC.md"
+  tokens: "design/master/tokens.json"
+  typography: "design/master/typography.json"
+  component_system: "design/master/component-system.json"
+  pending:
+    - "lock exact redistributable font binaries or font acquisition manifest"
+    - "place canonical supplied logo source into repository asset hierarchy"
+    - "finish detailed component visual states"
+    - "run SVG/source fidelity review before MASTER_READY"
 
 ui_setup:
   components_complete: false
@@ -39,7 +51,7 @@ ui_setup:
   assets_complete: false
   svg_qa_pass: false
   typography_complete: false
-  tokens_complete: false
+  tokens_complete: true
   placement_complete: false
   responsive_complete: false
   github_published: false
