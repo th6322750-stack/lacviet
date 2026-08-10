@@ -1,0 +1,17 @@
+{
+  "version":"gd3-0.1",
+  "source":"design/master/responsive.json",
+  "breakpoints":{"mobile":{"maxPx":767},"tablet":{"minPx":768,"maxPx":1199},"desktop":{"minPx":1200}},
+  "rules":{
+    "Header":{"desktop":"full nav + primary CTA","mobile":"logo + drawer trigger"},
+    "Hero":{"desktop":"copy left / brand visual right","mobile":"independent vertical composition: copy, brand visual, CTAs"},
+    "ProofStrip":{"desktop":"single row","tablet":"3+2 wrap","mobile":"2-column grid"},
+    "ServiceGrid":{"desktop":3,"tablet":2,"mobile":2,"collapseToOneBelowCssPx":520},
+    "ProductGrid":{"desktop":"multi-card row/grid","tablet":3,"mobile":2,"collapseToOneBelowCssPx":420},
+    "WhyProcess":{"desktop":"two panels side-by-side","mobile":"stack; process vertical"},
+    "Testimonials":{"desktop":3,"tablet":2,"mobile":1},
+    "FinalCTA":{"desktop":"copy-left/actions-right","mobile":"centered + stacked actions"},
+    "Footer":{"desktop":"multi-column","mobile":"stacked"}
+  },
+  "safety":{"minTapTargetCssPx":44,"noHorizontalOverflow":true,"preserveLogoAspectRatio":true,"mobileIsNotScaledDesktop":true}
+}
