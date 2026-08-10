@@ -1,0 +1,19 @@
+{
+  "version":"gd3-0.1",
+  "source":"design/master/typography.json",
+  "fontManifest":"design/master/font-manifest.json",
+  "roles":{
+    "brandWordmark":{"source":"supplied raster logo; do not rebuild with type"},
+    "eyebrow":{"family":"Inter","weight":700,"webPx":20,"mobilePx":20,"trackingPx":1,"colorToken":"goldPrimary"},
+    "heroTitle":{"family":"Inter","webPx":74,"mobilePx":61,"weight":900,"lineHeight":1.04,"color":"#F7F2E8","copy":"TỐI ƯU HIỆU QUẢ"},
+    "heroAccent":{"family":"Inter","webPx":74,"mobilePx":52,"weight":900,"lineHeight":1.04,"colorToken":"goldPrimary","copy":"BỨT PHÁ MỌI GIỚI HẠN"},
+    "sectionTitle":{"family":"Inter","webPx":34,"mobilePx":32,"weight":800,"lineHeight":1.1,"trackingPx":2,"colorToken":"goldPrimary"},
+    "cardTitle":{"family":"Inter","webPx":28,"mobilePx":22,"weight":800,"lineHeight":1.2,"colorToken":"goldPrimary"},
+    "metric":{"family":"Inter","webPx":38,"mobilePx":34,"weight":900,"lineHeight":1,"colorToken":"goldPrimary"},
+    "bodyLg":{"family":"Inter","webPx":28,"mobilePx":21,"weight":400,"lineHeight":1.5,"colorToken":"textSecondary"},
+    "body":{"family":"Inter","webPx":20,"mobilePx":18,"weight":400,"lineHeight":1.55,"colorToken":"textSecondary"},
+    "button":{"family":"Inter","webPx":24,"mobilePx":20,"weight":800,"lineHeight":1},
+    "caption":{"family":"Inter","webPx":16,"mobilePx":15,"weight":500,"lineHeight":1.4}
+  },
+  "mustNot":["convert normal UI copy to paths","rebuild supplied wordmark using fonts","silently substitute typography"]
+}
